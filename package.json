@@ -9,10 +9,10 @@
   "author": "kingnigel",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KingNigel/poster.git"
+    "url": "https://github.com/KingNigel/http-poster.git"
   },
   "bugs": {
-    "url": "https://github.com/KingNigel/poster/issues"
+    "url": "https://github.com/KingNigel/http-poster/issues"
   },
   "license": "MIT"
 }
