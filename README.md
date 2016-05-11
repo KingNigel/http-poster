@@ -1,0 +1,18 @@
+# http-poster 一个简单的发送请求的封装
+###发送get请求
+``` javascript
+    var poster=require('poster');
+    poster.get('你要请求的地址例如http://baidu.com',function(err,res,data){ 
+       console.log(res);
+       console.log(data);
+     });
+```
+###发送post请求
+####默认是发送json格式
+``` javascript
+    var data={foo:"foo",bar:"bar"};
+    var jsonData=JSON.stringify(data);
+      poster.post('你要请求的地址例如http://baidu.com',jsonData,function(err,data){
+       console.log(data);
+    });
+
