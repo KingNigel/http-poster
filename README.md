@@ -2,7 +2,7 @@
 ###发送get请求
 ``` javascript
     var poster=require('http-poster');
-    poster.get('你要请求的地址例如http://baidu.com',function(err,res,data){ 
+    poster.get('你要请求的地址例如',function(err,res,data){ 
        console.log(res);
        console.log(data);
      });
@@ -13,7 +13,7 @@
     var poster=require('http-poster');
     var data={foo:"foo",bar:"bar"};
     var jsonData=JSON.stringify(data);
-    poster.post('你要请求的地址例如http://baidu.com',jsonData,function(err,data){
+    poster.post('你要请求的地址例如',jsonData,function(err,data){
        console.log(data);
     });
 
